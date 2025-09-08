@@ -17,6 +17,8 @@ namespace To_do_List
         int i = 1;
         string editTask;
         string done;
+        string searchtask;
+        string taskExists;
 
         private void printTsks()
         {
@@ -85,11 +87,35 @@ namespace To_do_List
                 //    Console.WriteLine(new string('\t', 4) + "The task not found!");
                 //}
             }
-            Console.WriteLine(new string('\t', 4) + "//The task has been modified//");
+            Console.WriteLine(new string('\t', 4) + "//The task has been modified// ");
             File.WriteAllLines(filepath, lines);
+        }
 
+        public void SearchTask()
+        {
+           lines= File.ReadAllLines(filepath);
+            Console.Write(new string('\t', 4) + "Enter the task you want to search for: ");
+            searchtask = Console.ReadLine();
 
+            if (lines.Contains(searchtask))
+            {
+             Console.Write(new string('\t', 4) + "The task you searched for: " + searchtask + "\n");
+                Console.WriteLine(new string('\t', 4) + "Task exists!");
 
+            }
+            else
+                Console.WriteLine(new string('\t', 4) + "Task dose not exists!");
+            //for(int i = 0;i < lines.Length;i++)
+            //{
+            //    if (lines[i] == searchtask)
+            //    {
+            //        taskExists += lines[i];
+            //        Console.Write(new string('\t', 4) + "The task you searched for: " + taskExists);
+            //        break;
+            //    }
+            //    else
+            //        Console.WriteLine("Task dose not exists!");
+            //}
         }
 
 

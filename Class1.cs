@@ -73,6 +73,12 @@ namespace To_do_List
                 Console.Write("You chose: " + process[3] + "\n");
                 t1.EditTask();
             }
+
+            else if (select == 5)
+            {
+                Console.Write("You chose: " + process[4] + "\n");
+                t1.SearchTask();
+            }
         }
     }
 }

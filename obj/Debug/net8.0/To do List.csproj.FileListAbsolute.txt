@@ -12,3 +12,4 @@ C:\oop projects\To do List\To do List\obj\Debug\net8.0\refint\To do List.dll
 C:\oop projects\To do List\To do List\obj\Debug\net8.0\To do List.pdb
 C:\oop projects\To do List\To do List\obj\Debug\net8.0\To do List.genruntimeconfig.cache
 C:\oop projects\To do List\To do List\obj\Debug\net8.0\ref\To do List.dll
+C:\oop projects\To do List\To do List\obj\Debug\net8.0\To do List.sourcelink.json
