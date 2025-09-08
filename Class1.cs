@@ -17,7 +17,8 @@ namespace To_do_List
                 "Add a new task ",
                "View the task list",
                "Delete a task",
-               "Edit a task "
+               "Edit a task ",
+               "Search for a task"
             };
 
 
