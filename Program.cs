@@ -11,6 +11,13 @@
                 c1.SelectProcesses();
                 c1.Choice();
             }
+
+            Console.WriteLine("teeeeeeeeeeeeeeeeeeeeeeeeest")
+            Console.WriteLine("teeeeeeeeeeeeeeeeeeeeeeeeest")
+            Console.WriteLine("teeeeeeeeeeeeeeeeeeeeeeeeest")
+            Console.WriteLine("teeeeeeeeeeeeeeeeeeeeeeeeest")
+            Console.WriteLine("teeeeeeeeeeeeeeeeeeeeeeeeest")
+            Console.WriteLine("teeeeeeeeeeeeeeeeeeeeeeeeest")
         }
     }
 }
